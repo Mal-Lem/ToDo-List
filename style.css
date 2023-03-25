@@ -1,17 +1,18 @@
-body{
-    /* background: linear-gradient(#f0bee0,#ff39ba); */
-    background: linear-gradient(#f0bee0,#3c39ff);
+*{  
+padding: 0;
+margin: 0;
 
+}
+body{
+    /*background: linear-gradient(#f0bee0,#ff39ba); */
+    background: linear-gradient(#f0bee0,#3c39ff);
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
     font-family: cursive;
 }
-section{
-    margin-top: 80px;
 
-}
 h1{
     text-align: center;
     color: #fff;
@@ -20,9 +21,13 @@ h1{
 }
 .container{
     width: 500px;
+    height: 463px;
+    overflow-y: auto;
 }
+
 .input-container{
     display: flex;
+    padding-bottom: 5px;
     justify-content: center;
     height: 52px;
 
